@@ -1,0 +1,169 @@
+#pesetas{
+	position:absolute;
+	height:20px;
+	width:60px;
+	
+}
+
+#pesetas2{
+	position:absolute;
+	height:20px;
+	width:60px;
+	
+}
+
+#inpesetas{
+	position:absolute;
+	height:20px;
+	width:120px;
+	left:70px;
+}
+
+#inpesetas2{
+	position:absolute;
+	height:20px;
+	width:120px;
+	left:70px;
+}
+
+#botpes{
+	position:absolute;
+	height:20px;
+	width:120px;
+	left:200px;
+}
+
+#botpes2{
+	position:absolute;
+	height:20px;
+	width:120px;
+	left:200px;
+}
+
+#euros{
+	position:absolute;
+	height:20px;
+	width:60px;
+	
+	left:330px;
+}
+
+#euros2{
+	position:absolute;
+	height:20px;
+	width:60px;
+	
+	left:330px;
+}
+
+#ineuros{
+	position:absolute;
+	height:20px;
+	width:120px;
+	left:400px;
+}
+
+#ineuros2{
+	position:absolute;
+	height:20px;
+	width:120px;
+	left:400px;
+}
+
+#botdes{
+	position:absolute;
+	height:50px;
+	width:300px;
+	left:0px;
+	top: 240px;
+}
+
+#indes{
+	position:absolute;
+	height:50px;
+	width:300px;
+	left:0px;
+	top: 300px;
+}
+
+#Textdes{
+	position:absolute;
+	height:50px;
+	width:300px;
+	left:0px;
+	top: 360px;
+	
+}
+
+#Textapa{
+	position:absolute;
+	height:50px;
+	width:300px;
+	left:0px;
+	top: 420px;
+	
+}
+
+.des{
+	font-family:Arial,Tahoma;
+}
+
+#cont2{
+	position:absolute;
+	width:600px;
+	height:100px;
+	top:100px;
+}
+
+#barra{
+	position:relative;
+	top:425px;
+}
+
+#nombre{
+	position:absolute;
+	top:500px;
+	width:60px;
+	height:20px;
+	
+}
+
+#innombre{
+	position:absolute;
+	height:20px;
+	width:120px;
+	left:70px;
+	top:500px;
+}
+
+#apellidos{
+	position:absolute;
+	top:530px;
+	width:60px;
+	height:20px;
+	
+}
+
+#inapellidos{
+	position:absolute;
+	height:20px;
+	width:120px;
+	left:70px;
+	top:530px;
+}
+
+#botnombre{
+	position:absolute;
+	height:30px;
+	width:90px;
+	top:560px;
+}
+
+#botalerta{
+	position:absolute;
+	height:30px;
+	width:90px;
+	top:560px;
+	left:100px;
+}
+

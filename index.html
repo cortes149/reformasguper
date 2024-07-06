@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>pesetas</title>
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	
+	<script type="text/javascript">
+		function Convertir(){
+			
+			var CogerDiv;
+			
+			CogerDiv = document.getElementById("inpesetas");;
+			
+			var Texto;
+			
+			Texto = CogerDiv.value;
+			
+			var Sumar;
+			
+			Sumar = Texto * 0.00601012104 ;
+			
+			document.getElementById("ineuros").value = Sumar;	
+		}
+		
+		function Convertir2(){
+			
+			var CogerDiv;
+			
+			CogerDiv = document.getElementById("inpesetas2");;
+			
+			var Texto;
+			
+			Texto = CogerDiv.value;
+			
+			var Sumar;
+			
+			Sumar = Texto * 136.386 ;
+			
+			document.getElementById("ineuros2").value = Sumar;	
+		}
+		
+		function Desaparecer(id){
+			
+			var CogerDiv;
+			
+			CogerDiv = document.getElementById(id).style.display = "none";
+		}
+		
+		function Aparecer(){
+			
+			var CogerDiv;
+			
+			CogerDiv = document.getElementById("Textdes").style.display = "inline";
+			
+			CogerDiv = document.getElementById("botdes").style.display = "inline";
+			
+			CogerDiv = document.getElementById("indes").style.display = "inline";
+		}
+		
+		function Limpiar(){
+			var CogerDiv;
+			
+			CogerDiv = document.getElementById("innombre").value = ""
+			CogerDiv = document.getElementById("inapellidos").value = ""
+		}
+		
+		function Alerta(){
+			var Alert;
+			
+			Alert = window.alert("El botón Reset Form limpia los campos del formulario")
+		}
+			
+			
+	
+	</script>
+	
+	<body>
+		<h1> Conversion de pesetas a euros </h1>
+		<div id="pesetas">Pesetas:</div>
+		<input type="text" id="inpesetas">
+		<button id="botpes" onclick="Convertir()">Convertir en €</button>
+		<div id="euros">Euros:</div>
+		<input type="text" id="ineuros">
+		
+		<div id="cont2">
+			<h1> Conversion de euros a pesetas </h1>
+			<div id="pesetas2">Euros:</div>
+			<input type="text" id="inpesetas2">
+			<button id="botpes2" onclick="Convertir2()">Convertir en P</button>
+			<div id="euros2">Pesetas:</div>
+			<input type="text" id="ineuros2">
+		</div>
+		
+		<button id="botdes" onmouseover="Desaparecer('botdes')">botón que desaparece</button>
+		<input type="text" id="indes" onmouseover="Desaparecer('indes')" placeholder="Caja que desaparece">
+		<div id="Textdes" onmouseover="Desaparecer('Textdes')">Texto que desaparece</div>
+		<div id="Textapa" onclick="Aparecer('Textdes')">Pulsa aqui para que todo aparezca</div>
+
+		<hr id="barra"></hr>
+		
+		<div id="nombre">Nombre:</div>
+		<input type="text" id="innombre">
+		<div id="apellidos">Apellidos:</div>
+		<input type="text" id="inapellidos">
+		<button id="botnombre" onclick="Limpiar()">Reset Form</button>
+		<button id="botalerta" onclick="Alerta()">Alert!</button>
+	</body>
